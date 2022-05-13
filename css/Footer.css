@@ -1,0 +1,19 @@
+.foot{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #af18c6;
+    height: 100px;
+ 
+   
+    
+}
+
+.foot a{
+    margin: auto;
+}
+
+.foot i {
+    color: white;
+    font-size: 2rem;
+}

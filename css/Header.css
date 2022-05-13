@@ -1,0 +1,83 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    
+    width: 90%;
+    max-width: 1100px;
+    height: 100vh;
+    margin: auto;
+    gap: 10px;
+    overflow: hidden;
+    align-items: center;
+}
+
+
+.hero{
+    width: 100%;
+    grid-row: 4/10;
+    grid-column: 7/-1;
+}
+
+.btnCrear{
+    margin-top: 20px ;
+    padding: 10px 40px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border-radius: 6px;
+
+
+    
+}
+
+.btnCrear:hover{
+    background-color: rgba(198, 29, 94, 0.703);
+    
+}
+
+
+.textos-hero{
+    
+    grid-column: 2/7;
+    grid-row: 5/12;
+    height: 100%;
+    text-align: center;
+    line-height: 2;
+
+    
+}
+.weigth-600{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.textos-hero p{
+    margin-bottom: 20px;
+
+}
+
+.introqr{
+    grid-template-rows: repeat(9,40px);
+    
+}
+
+
+.icono{
+    height: 100px;
+    grid-row: 11/12;
+    grid-column: 1/-1;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+}   
+    
+   
+  
+
+
+.icono i{
+    color: black;
+}

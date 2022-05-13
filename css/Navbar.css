@@ -1,0 +1,57 @@
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    
+
+}
+
+.navbar .menu{
+    grid-column: 2/8;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    
+    
+}
+
+.navbar .menu li{
+    list-style: none;
+    
+}
+.navbar .menu a{
+    text-decoration: none;
+    color: rgb(13, 87, 207);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 19px;
+    width: 100%;
+   
+
+    
+
+}
+
+.navbar .menu-bar{
+    display: none;
+}
+
+
+.icono{
+    height: 100px;
+    grid-row: 11/12;
+    grid-column: 1/-1;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+}   
+    
+   
+  
+
+
+.icono i{
+    color: black;
+}
