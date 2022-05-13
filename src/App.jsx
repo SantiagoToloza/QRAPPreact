@@ -10,6 +10,7 @@ import { ScanApp } from "./components/ScanApp";
 
 
 
+
 const App = () => {
   return (
     <>

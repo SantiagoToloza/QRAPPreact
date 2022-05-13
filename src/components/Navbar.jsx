@@ -1,8 +1,7 @@
 import "../../css/Navbar.css"
 import "../../css/MediaQ.css"
 import { useState } from "react";
-import { Outlet } from "react-router";
-
+  
 
 
 
