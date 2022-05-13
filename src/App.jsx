@@ -4,8 +4,6 @@ import { Header } from "./components/Header";
 import { Navbar } from "./components/Navbar";
 import { GridScan } from "./components/GridScan";
 import { Footer } from "./components/Footer";
-import "../css/index.css";
-import "../css/MediaQ.css";
 import { AppQR } from "./components/AppQR";
 import { ScanApp } from "./components/ScanApp";
 
