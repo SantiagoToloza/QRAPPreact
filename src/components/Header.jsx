@@ -11,7 +11,7 @@ export const Header = () => {
                 <p>App simple para crear una imagen QR introduciendo el texto que quieras convertir </p>
                 <Link to="/AppQR" className="btnCrear" >Comenzar</Link>
             </div>
-            <img src="public\images\undraw_mobile_payments_re_7udl.svg" className="hero"/>
+            <img src="\images\undraw_mobile_payments_re_7udl.svg" className="hero"/>
 
             <a href="#scanJump" className="icono">
                 <i className="fa-solid fa-angles-down"></i>
