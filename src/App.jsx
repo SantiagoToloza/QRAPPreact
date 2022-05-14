@@ -5,7 +5,6 @@ import { Navbar } from "./components/Navbar";
 import { GridScan } from "./components/GridScan";
 import { Footer } from "./components/Footer";
 import { AppQR } from "./components/AppQR";
-import { ScanApp } from "./components/ScanApp";
 
 
 
