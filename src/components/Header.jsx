@@ -1,5 +1,7 @@
 import "../../css/Header.css"
 import {Link} from "react-router-dom"
+
+import img from '../../dist/assets/undraw.svg'
 export const Header = () => {
 
   return (
@@ -11,7 +13,7 @@ export const Header = () => {
                 <p>App simple para crear una imagen QR introduciendo el texto que quieras convertir </p>
                 <Link to="/AppQR" className="btnCrear" >Comenzar</Link>
             </div>
-            <img src="./images/undraw.svg" className="hero" alt="" />
+            <img src={img} className="hero" alt="" />
 
             <a href="#scanJump" className="icono">
                 <i className="fa-solid fa-angles-down"></i>
