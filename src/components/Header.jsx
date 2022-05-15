@@ -1,7 +1,7 @@
 import "../../css/Header.css"
 import {Link} from "react-router-dom"
 
-import img from '../../dist/assets/undraw.svg'
+import img from '../../images/undraw.svg'
 export const Header = () => {
 
   return (
