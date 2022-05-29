@@ -1,5 +1,6 @@
 import "../../css/GridScan.css";
 import accept from "../../images/accept.svg";
+import { Link } from "react-router-dom";
 export const GridScan = () => {
   return (
     <>
@@ -13,9 +14,9 @@ export const GridScan = () => {
             Puede escanear cualquier codigo QR desde cualquier dispositivo movil
             Solo enfoque el QR y se le brindara el texto
           </p>
-          <a href="/scanApp" className="btnscan">
+          <Link to="SCANAPP" className="btnscan">
             Escanear
-          </a>
+          </Link>
         </div>
       </div>
     </>
