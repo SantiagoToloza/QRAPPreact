@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <>
       <header>
-        <div className="grid introqr" id="home">
+        <div className="introqr grid" id="home">
             <div className="textos-hero">
                 <h1 className="weigth-600">App para generar Qr</h1>
                 <p>App simple para crear una imagen QR introduciendo el texto que quieras convertir </p>

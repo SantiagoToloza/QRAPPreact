@@ -1,0 +1,25 @@
+.todo{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+.qrapp{
+    width: 36vw;
+    margin: 0 auto;
+}
+
+.data{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    grid-template-columns: 1/-1;
+    
+    
+
+}
+
+
