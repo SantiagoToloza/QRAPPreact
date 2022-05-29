@@ -51,6 +51,7 @@
     text-align: center;
     height: 400px;
     margin: auto auto;
+    width: 100%;
     
 }
 .texto-scanear h1{
@@ -61,11 +62,26 @@
     margin: auto auto -20px;
 }
 
-.hero2{
-    grid-column: 2/7;
-    grid-row: 2/-1;
+.img2{
+    grid-column: 1/6;
+    grid-row: 1/-1;
 }
+
+.hero2{
+    width: 100%;
+}
+
 .texto-scanear{
-    grid-column: 5/-1;
-    grid-row:1/12
+    grid-column: 6/-1;
+    grid-row:1/12;
+    width:100%;
+}
+
+.scanqr{
+    overflow: hidden;
+}
+
+.btnscan{
+    text-align: center;
+    width: 40%;
 }
